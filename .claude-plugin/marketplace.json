@@ -1,0 +1,45 @@
+{
+  "name": "wiresage",
+  "description": "Claude Code plugins from WireSage.",
+  "owner": {
+    "name": "WireSage",
+    "url": "https://github.com/wiresage"
+  },
+  "plugins": [
+    {
+      "name": "mikrotik",
+      "displayName": "MikroTik",
+      "description": "Work with MikroTik RouterOS: 34 RouterOS skills, an MCP server that manages routers over SSH, and a language server for .rsc scripts.",
+      "version": "0.1.0",
+      "category": "networking",
+      "tags": ["mikrotik", "routeros", "networking", "mcp", "lsp"],
+      "author": {
+        "name": "WireSage",
+        "url": "https://github.com/wiresage"
+      },
+      "homepage": "https://github.com/wiresage/claude-plugins",
+      "repository": "https://github.com/wiresage/claude-plugins",
+      "license": "MIT",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wiresage/routeros-skills.git"
+      },
+      "mcpServers": {
+        "mikrotik": {
+          "command": "uvx",
+          "args": ["mcp-server-mikrotik"]
+        }
+      },
+      "lspServers": {
+        "routeros": {
+          "command": "uvx",
+          "args": ["routeros-lsp", "--stdio"],
+          "extensionToLanguage": {
+            ".rsc": "routeros"
+          },
+          "startupTimeout": 30000
+        }
+      }
+    }
+  ]
+}
