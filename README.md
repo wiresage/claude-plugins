@@ -3,6 +3,14 @@
 A [Claude Code](https://code.claude.com) plugin marketplace from [WireSage](https://github.com/wiresage). It lists plugins
 that bundle WireSage projects, so one command installs everything a plugin needs.
 
+## See it work
+
+![A terminal: adding the wiresage marketplace, installing the mikrotik plugin, then listing its skills, MCP server and language server](docs/media/mikrotik-plugin-demo.gif)
+
+*A replay of the real output of `claude plugin marketplace add`, `install`, `list` and `details`, drawn from that output.
+It is not a screen recording, and the output is shortened.* The last frame shows which WireSage project each part of the
+plugin comes from.
+
 ## Add the marketplace
 
 In a Claude Code session:
@@ -30,6 +38,8 @@ Or from your shell:
 ```bash
 claude plugin install mikrotik@wiresage
 ```
+
+`claude plugin details mikrotik` lists what the plugin added: the skills, the MCP server and the language server.
 
 ## Available plugins
 
