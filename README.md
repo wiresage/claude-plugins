@@ -54,7 +54,7 @@ references them.
 
 | Component | Repository | What you get |
 | :- | :- | :- |
-| Skills | [routeros-skills](https://github.com/wiresage/routeros-skills) | 34 skills on RouterOS 7: firewall, routing, VPN, wireless, scripting and more. |
+| Skills | [routeros-skills](https://github.com/wiresage/routeros-skills) | 35 skills on RouterOS 7: firewall, routing, VPN, wireless, switch chips, scripting and more. |
 | MCP server | [mikrotik-mcp](https://github.com/wiresage/mikrotik-mcp) | Tools to read and change a router over SSH, started as `uvx mcp-server-mikrotik`. |
 | Language server | [routeros-lsp](https://github.com/wiresage/routeros-lsp) | Syntax errors, unknown commands and parameters, and completions for `.rsc` files, started as `uvx routeros-lsp --stdio`. |
 

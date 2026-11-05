@@ -9,8 +9,8 @@
     {
       "name": "mikrotik",
       "displayName": "MikroTik",
-      "description": "Work with MikroTik RouterOS: 34 RouterOS skills, an MCP server that manages routers over SSH, and a language server for .rsc scripts.",
-      "version": "0.1.0",
+      "description": "Work with MikroTik RouterOS: 35 RouterOS skills, an MCP server that manages routers over SSH, and a language server for .rsc scripts.",
+      "version": "0.2.0",
       "category": "networking",
       "tags": ["mikrotik", "routeros", "networking", "mcp", "lsp"],
       "author": {
